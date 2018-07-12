@@ -7,7 +7,7 @@ double determinant (double **matrix, int dim) {
 	for (i=0; i<dim; i++)
 		det *= matrix[i][i];
 
-	if (pivoteamento(matrix,dim,dim) != 0)
+	if (uppertriangular(matrix,dim,dim) != 0)
 		det = -1*det;
 
 	return det;
