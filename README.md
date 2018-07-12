@@ -1,6 +1,6 @@
 #Métodos Numéricos II - Tarefa 5
 
-Criar a biblioteca liblinalg. A biblioteca deve conter as seguintes funções (uma em cada arquivo .c):
+*Criar a biblioteca liblinalg. A biblioteca deve conter as seguintes funções (uma em cada arquivo .c):*
 
 1. Ler um sistema de equações de um arquivo, contendo a dimensão da matriz aumentada e os valores da matriz.
 2. Imprimir uma matriz M × N.
