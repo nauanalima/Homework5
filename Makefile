@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -I. -O2
 DEPS = linalg.h
-OBJ = main.o	print.o	read.o	exchangelines.o	uppertriangular.o	determinant.o	reversesub.o	multiplication.o
+OBJ = main.o	print.o	read.o	exchangelines.o	uppertriangular.o	determinant.o	reversesub.o	multiplication.o	jacobi.o
 TARGET = main
 LIBS = -lm
 
